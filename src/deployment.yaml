@@ -55,7 +55,7 @@ spec:
     spec:
       containers:
       - name: kube-news
-        image: maiconghidolin/kube-news:v2
+        image: maiconghidolin/kube-news:{{TAG}}
         ports:
         - containerPort: 8080
         env:
